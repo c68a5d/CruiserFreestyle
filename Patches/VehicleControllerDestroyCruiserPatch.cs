@@ -10,7 +10,6 @@ namespace CompanyCruiserConfig.Patches
         [HarmonyPostfix]
         private static void FixedUpdatePostfix(VehicleController __instance)
         {
-            CompanyCruiserConfig.Logger.LogDebug("patch worked ok");
             if (__instance.transform.position.y < CompanyCruiserConfig.despawnHeightThreshold)
             {
                 __instance.OnDisable();
