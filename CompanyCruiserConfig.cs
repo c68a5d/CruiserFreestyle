@@ -142,6 +142,8 @@ namespace CompanyCruiserConfig
 
             Harmony.PatchAll(typeof(VehicleControllerPatch));
 
+            Harmony.PatchAll(typeof(RegisterNetworkPrefabPatch));
+
             if (despawnInVoid)
             {
                 Harmony.PatchAll(typeof(VehicleControllerDestroyCruiserPatch));
