@@ -1,3 +1,5 @@
+haven't made any changes yet, need some time to fork the mod by myself for the fisrt time.
+
 # fork of CompanyCruiserConfig
 
 ## Description
