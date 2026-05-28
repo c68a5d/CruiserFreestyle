@@ -1,4 +1,4 @@
-# CompanyCruiserConfig
+# fork of CompanyCruiserConfig
 
 ## Description
 A Lethal Company mod that allows configuring some of the Company Cruiser's internal values.
